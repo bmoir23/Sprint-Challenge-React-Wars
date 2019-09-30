@@ -18,13 +18,14 @@ const App = () => {
                 })
                 .catch(error => console.log(error));
         }, [])
-        // if (!chars) return <h3> Loading... </h3>
+        if (!chars) return <h3> Loading... </h3>
         return ( 
             <div className = "App">
-            <h1 className = "Header">React Wars</h1> 
+            <h1 className ="Header">React Wars</h1> 
+           <div>
            {chars.map((char, key) => <CharCard char = { char } key = { key } /> )} 
             </div>
-
+            </div>
             );
         }
 
