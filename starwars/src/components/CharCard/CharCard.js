@@ -12,6 +12,7 @@ const Card = styled.div `
 
     &:hover {
         background-color: grey;
+        pointer: cursor;
     }
     `;
 
