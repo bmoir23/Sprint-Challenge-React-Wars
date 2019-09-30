@@ -4,6 +4,8 @@ import styled from 'styled-components';
 const InfoDiv = styled.div `
         width: 100%;
         border-left: 2px solid black;
+        display: flex;
+        flex-direction: row;
         `;
 
 const Span = styled.span `

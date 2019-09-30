@@ -9,6 +9,10 @@ const Card = styled.div `
     display: flex;
     border: 2px solid black;
     background-color: white;
+
+    &:hover {
+        background-color: grey;
+    }
     `;
 
 const Name = styled.h3 `
