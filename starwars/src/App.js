@@ -21,7 +21,6 @@ const App = () => {
         if (!chars) return <h3 > Loading... < /h3>
         return ( <
             div className = "App" >
-
             <
             h1 className = "Header" > React Wars < /h1> {
             chars.map((char, key) => < CharCard char = { char }
