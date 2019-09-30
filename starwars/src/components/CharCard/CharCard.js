@@ -13,9 +13,9 @@ const Card = styled.div `
     &:hover {
         background-color: grey;
         pointer: cursor;
+   
     }
     `;
-
 const Name = styled.h3 `
     text-align: center;
     width: 45%;
