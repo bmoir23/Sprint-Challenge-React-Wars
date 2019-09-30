@@ -8,7 +8,7 @@ const Card = styled.div `
     margin: 10px;
     display: flex;
     border: 2px solid black;
-    align-items: row;
+    background-color: white;
     `;
 
 const Name = styled.h3 `
