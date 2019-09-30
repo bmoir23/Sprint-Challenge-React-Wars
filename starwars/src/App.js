@@ -13,20 +13,17 @@ const App = () => {
         // sync up with, if any.
         useEffect(() => {
             axios.get('https://swapi.co/api/people')
-                .then(res => {
-                    setChars(res.data.results)
+                .then(response => {
+                    setChars(response.data.results)
                 })
                 .catch(error => console.log(error));
         }, [])
-        if (!chars) return <h3 > Loading... < /h3>
-        return ( <
-            div className = "App" >
-            <
-            h1 className = "Header" > React Wars < /h1> {
-            chars.map((char, key) => < CharCard char = { char }
-                key = { key }
-                /> )}    <
-                /div>
+        if (!chars) return <h3> Loading... </h3>
+        return ( 
+            <div className = "App">
+            <h1 className = "Header"> React Wars </h1> {
+            chars.map((char, key) => <CharCard char = { char } key = { key } /> )} 
+            </div>
             );
         }
 
