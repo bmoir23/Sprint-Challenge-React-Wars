@@ -20,10 +20,11 @@ const CharCard = (props) => {
     return ( <
         Card >
 
+
         <
-        Name > { props.char.name } < /Name>  <
+        Name > { props.char.name } < /Name>   <
         CharInfo info = { props.char }
-        />  <
+        />   <
         /Card>
     )
 }
