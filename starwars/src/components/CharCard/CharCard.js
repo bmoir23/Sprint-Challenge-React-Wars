@@ -12,18 +12,16 @@ const Card = styled.div `
 
 const Name = styled.h3 `
     text-align: center;
-    width: 40%;
+    width: 45%;
     align-self: center;
     `;
 
 const CharCard = (props) => {
-    return ( <
-        Card >
-        <
-        Name > { props.char.name } < /Name>    <
-        CharInfo info = { props.char }
-        />   <
-        /Card>
+    return ( 
+        <Card >
+        <Name> { props.char.name } </Name>    
+        <CharInfo info = { props.char }/>
+        </Card>
     )
 }
 
