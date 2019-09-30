@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a way to change the value of elements or data given on a large scale. So in my opinion Facebook invented React in order to change millions of users input data in a large scale way with out having to change each piece of information one by one. Instead they made a way where they can effect many elements all at once with with a much smaller section of code.
+
 - [ ] What does it mean to _think_ in react?
+
+To think about how a little planning and thought and change a whole way a program inputs and outputs/displays information. By  designing one element you can scale your data into something much much much larger.
 
 - [ ] Describe state.
 
+State is the current value of an element
+
 - [ ] Describe props.
 
+Props are the values passed at the current state passed to functions 
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+side effects are changes or consequences to changes in functions or values not intended 
+
 
 ## Project Set Up
 

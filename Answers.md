@@ -21,4 +21,4 @@ Props are the values passed at the current state passed to functions
 
 1. What are side effects, and how do you sync effects in a React component to state or prop changes?
 
-sides effects are changes or consequences to changes in functions or values not intended 
+side effects are changes or consequences to changes in functions or values not intended 
