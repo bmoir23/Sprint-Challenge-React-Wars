@@ -22,10 +22,10 @@ const App = () => {
         return ( 
             <div className = "App">
             <h1 className ="Header">React Wars</h1> 
-           <div>
+           
            {chars.map((char, key) => <CharCard char = { char } key = { key } /> )} 
             </div>
-            </div>
+           
             );
         }
 
